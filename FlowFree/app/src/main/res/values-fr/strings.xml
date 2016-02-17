@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flow Free JMS</string>
+    <string name="about_description_text">Cette application a été codé dans le cadre du TP1 du module d\' Informatique Mobile (INF 8405) par :</string>
+    <string name="about_title_text">A propos</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="back_button_text">Retour</string>
+    <string name="empty_square_text">Cases Vides : %1$d</string>
+    <string name="exit_button_text">Quitter</string>
+    <string name="exit_confirmation_message">Toucher encore une fois si vous voulez quitter</string>
+    <string name="exit_game_confirmation_message">Etes vous sur de vouloir quitter ?</string>
+    <string name="exit_game_confirmation_title">Quitter</string>
+    <string name="flows_text">Flux :%1$d/%2$d</string>
+    <string name="highscore_text">Record : %1$s</string>
+    <string name="level_locked_text">Ce niveau est bloqué</string>
+    <string name="lost_message_text">Désolé vous avez échoué ce niveau. Essaie encore.</string>
+    <string name="lost_message_title">Niveau perdue</string>
+    <string name="moves_text">Actions : %1$d</string>
+    <string name="new_highscore_notification">Nouveau record</string>
+    <string name="new_level_unlocked_notification">Vous avez débloqué le niveau suivant</string>
+    <string name="next_button_text">Suivant</string>
+    <string name="next_grid">Grille Suivante</string>
+    <string name="replay_button_text">Rejouer</string>
+    <string name="select_level_title_text">Sélectionne le niveau</string>
+    <string name="select_size_text">Taille %1$d X %1$d</string>
+    <string name="select_size_title_text">Sélectionne la taille</string>
+    <string name="skip_button_text">Passez</string>
+    <string name="title_about_button_text">A propos</string>
+    <string name="title_start_button_text">Nouvelle Partie</string>
+    <string name="title_tutorial_button_text">Tutoriel</string>
+    <string name="tutorial_description_1">D\'abord, sélectionner un point</string>
+    <string name="tutorial_description_2">Deplacer vous dans les cases voisines pour créer un tuyau</string>
+    <string name="tutorial_description_3">Relier tous les points ensemble avec des tuyaux ce qui crée un flux</string>
+    <string name="tutorial_description_4">Associé toutes les paires de couleurs et couvrez tous le plateau entier. Attention, les tuyaux se briseront s\'ils se superposent.</string>
+    <string name="tutorial_title">Tutoriel : Comment jouer</string>
+    <string name="welcome_message">Bienvenue au jeu Flow Free par JMS</string>
+    <string name="won_message_special_title">Tous les niveaux sont terminés</string>
+    <string name="won_message_text">Félicitations vous avez réussi ce niveau et débloqué le niveau suivant</string>
+    <string name="won_message_title">Niveau terminé</string>
+    <string name="won_special_message_text">Félicitations vous avez terminé tous les niveaux de la grille. Essayez la grille %1$d x %1$d</string>
+</resources>

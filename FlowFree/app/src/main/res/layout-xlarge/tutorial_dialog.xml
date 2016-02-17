@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="480dp"
+    android:layout_height="400dp"
+    android:background="@color/lightblue2"><![CDATA[
+
+
+    />
+
+
+
+
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/tutorial_image_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/tutorial_image_1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/AlertDialog.AppCompat"
+        android:id="@+id/tutorial_skip_button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/skip_button_text"
+        android:background="@color/lightyellow"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="@style/AlertDialog.AppCompat"
+        android:id="@+id/tutorial_back_button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/back_button_text"
+        android:background="@color/lightyellow"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/tutorial_skip_button" />
+
+    <Button
+        style="@style/AlertDialog.AppCompat"
+        android:id="@+id/tutorial_next_button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/next_button_text"
+        android:background="@color/lightyellow"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/tutorial_back_button" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tutorial_description_1"
+        android:id="@+id/tutorial_description"
+        android:layout_below="@+id/tutorial_image_view"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp" />
+</RelativeLayout>

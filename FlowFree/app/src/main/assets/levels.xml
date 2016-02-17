@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<levels>
+    <level id="1" number="1">
+        <size>7</size>
+		<flows>
+			<flow><start x="0" y="1"></start><end x="0" y="6"></end></flow>
+			<flow><start x="2" y="2"></start><end x="4" y="3"></end></flow>
+			<flow><start x="2" y="4"></start><end x="4" y="5"></end></flow>
+			<flow><start x="0" y="5"></start><end x="5" y="5"></end></flow>
+			<flow><start x="1" y="5"></start><end x="4" y="4"></end></flow>
+		</flows>
+    </level>
+	
+	<level id="2" number="2">
+        <size>7</size>
+		<flows>
+            <flow><start x="0" y="5"></start><end x="6" y="3"></end></flow>
+            <flow><start x="6" y="4"></start><end x="6" y="6"></end></flow>
+            <flow><start x="1" y="5"></start><end x="6" y="2"></end></flow>
+            <flow><start x="5" y="4"></start><end x="5" y="6"></end></flow>
+            <flow><start x="5" y="2"></start><end x="3" y="5"></end></flow>
+            <flow><start x="1" y="1"></start><end x="2" y="5"></end></flow>
+            <flow><start x="2" y="2"></start><end x="5" y="1"></end></flow>
+		</flows>
+    </level>
+	
+	<level id="3" number="3">
+        <size>7</size>
+		<flows>
+            <flow><start x="0" y="5"></start><end x="3" y="4"></end></flow>
+            <flow><start x="3" y="5"></start><end x="6" y="6"></end></flow>
+            <flow><start x="2" y="2"></start><end x="4" y="2"></end></flow>
+            <flow><start x="1" y="3"></start><end x="4" y="4"></end></flow>
+            <flow><start x="1" y="5"></start><end x="4" y="5"></end></flow>
+			<flow><start x="1" y="2"></start><end x="5" y="4"></end></flow>
+		</flows>
+    </level>
+
+    <level id="4" number="1">
+        <size>8</size>
+        <flows>
+            <flow><start x="5" y="1"></start><end x="7" y="1"></end></flow>
+            <flow><start x="4" y="0"></start><end x="4" y="5"></end></flow>
+            <flow><start x="0" y="3"></start><end x="6" y="3"></end></flow>
+            <flow><start x="0" y="1"></start><end x="2" y="2"></end></flow>
+            <flow><start x="3" y="4"></start><end x="2" y="5"></end></flow>
+            <flow><start x="7" y="2"></start><end x="7" y="7"></end></flow>
+            <flow><start x="5" y="3"></start><end x="2" y="4"></end></flow>
+            <flow><start x="6" y="1"></start><end x="5" y="2"></end></flow>
+            <flow><start x="0" y="0"></start><end x="0" y="2"></end></flow>
+        </flows>
+    </level>
+
+    <level id="5" number="2">
+        <size>8</size>
+        <flows>
+            <flow><start x="5" y="5"></start><end x="2" y="6"></end></flow>
+            <flow><start x="3" y="4"></start><end x="1" y="6"></end></flow>
+            <flow><start x="5" y="0"></start><end x="5" y="3"></end></flow>
+            <flow><start x="6" y="1"></start><end x="6" y="3"></end></flow>
+            <flow><start x="4" y="1"></start><end x="3" y="6"></end></flow>
+            <flow><start x="4" y="0"></start><end x="6" y="0"></end></flow>
+            <flow><start x="2" y="2"></start><end x="2" y="4"></end></flow>
+        </flows>
+    </level>
+
+    <level id="6" number="3">
+        <size>8</size>
+        <flows>
+            <flow><start x="1" y="1"></start><end x="2" y="6"></end></flow>
+            <flow><start x="4" y="4"></start><end x="2" y="5"></end></flow>
+            <flow><start x="5" y="1"></start><end x="3" y="5"></end></flow>
+            <flow><start x="3" y="0"></start><end x="0" y="3"></end></flow>
+            <flow><start x="3" y="1"></start><end x="4" y="3"></end></flow>
+            <flow><start x="4" y="1"></start><end x="0" y="4"></end></flow>
+            <flow><start x="5" y="2"></start><end x="4" y="5"></end></flow>
+            <flow><start x="2" y="1"></start><end x="3" y="3"></end></flow>
+        </flows>
+    </level>
+
+</levels>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="240dp"
+    android:layout_height="110dp"
+    android:background="@color/lightblue2">
+    <ImageView
+        android:id="@+id/won_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/trophy_icon"
+        android:layout_alignParentStart="true" /><![CDATA[
+
+    />
+
+    ]]>
+
+    <Button
+        android:id="@+id/next_level_button"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:text="@string/next_button_text"
+        android:layout_below="@+id/won_image"
+        android:background="@color/lightyellow"
+        android:layout_marginRight="5dp"
+        style="@style/AlertDialog.AppCompat" />
+
+    <Button
+        android:id="@+id/replay_button"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:text="@string/replay_button_text"
+        android:layout_alignBottom="@+id/exit_button"
+        android:layout_toEndOf="@+id/next_level_button"
+        android:background="@color/lightyellow"
+        android:layout_marginRight="5dp"
+        style="@style/AlertDialog.AppCompat" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:text="@string/exit_button_text"
+        android:layout_below="@+id/won_image"
+        android:layout_toEndOf="@+id/replay_button"
+        android:background="@color/lightyellow"
+        android:layout_marginRight="5dp"
+        style="@style/AlertDialog.AppCompat" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/won_message"
+        android:text="@string/won_message_text"
+        android:textSize="11dp"
+        android:layout_above="@+id/next_level_button"
+        android:layout_toEndOf="@+id/won_image" />
+</RelativeLayout>
