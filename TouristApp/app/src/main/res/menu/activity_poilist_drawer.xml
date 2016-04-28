@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_all_spots"
+            android:icon="@drawable/ic_category_all"
+            android:title="@string/all_spots" />
+
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_category_favorites"
+            android:title="@string/favorites" />
+
+        <item
+            android:id="@+id/nav_category_atm"
+            android:icon="@drawable/ic_category_atm"
+            android:title="@string/atm" />
+
+        <item
+            android:id="@+id/nav_category_attractions"
+            android:icon="@drawable/ic_category_attractions"
+            android:title="@string/attraction" />
+
+
+        <item
+            android:id="@+id/nav_category_beach"
+            android:icon="@drawable/ic_category_beach"
+            android:title="@string/beach" />
+
+
+
+        <item
+            android:id="@+id/nav_category_hospital"
+            android:icon="@drawable/ic_category_hospital"
+            android:title="@string/hospital" />
+
+
+
+        <item
+            android:id="@+id/nav_category_hotels"
+            android:icon="@drawable/ic_category_hotels"
+            android:title="@string/hotel" />
+
+
+        <item
+            android:id="@+id/nav_category_museums"
+            android:icon="@drawable/ic_category_museum"
+            android:title="@string/museum" />
+
+
+        <item
+            android:id="@+id/nav_category_nightlife"
+            android:icon="@drawable/ic_category_nightlife"
+            android:title="@string/nightlife" />
+
+        <item
+            android:id="@+id/nav_category_parc"
+            android:icon="@drawable/ic_category_parc"
+            android:title="@string/parc" />
+
+
+        <item
+            android:id="@+id/nav_category_restaurants"
+            android:icon="@drawable/ic_category_food"
+            android:title="@string/restaurant" />
+
+
+        <item
+            android:id="@+id/nav_category_services"
+            android:icon="@drawable/ic_category_services"
+            android:title="@string/service" />
+
+        <item
+            android:id="@+id/nav_category_shopping"
+            android:icon="@drawable/ic_category_shopping"
+            android:title="@string/shopping" />
+
+        <item
+            android:id="@+id/nav_category_sport"
+            android:icon="@drawable/ic_category_sport"
+            android:title="@string/sport" />
+
+        <item
+            android:id="@+id/nav_category_transport"
+            android:icon="@drawable/ic_category_transport"
+            android:title="@string/transport" />
+
+
+        <item
+            android:id="@+id/nav_category_university"
+            android:icon="@drawable/ic_category_university"
+            android:title="@string/university" />
+
+
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center">
+
+        <TextView
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Attraction Type"
+            android:id="@+id/attraction_type_text"
+            android:textColor="#000000"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:id="@+id/poi_image"
+            android:soundEffectsEnabled="false"
+            android:src="#DDDDDD"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Point of Interest"
+            android:id="@+id/poi_text"
+            android:textSize="15dp"
+            android:textColor="#76a6f0"
+            android:background="#7f291212"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</LinearLayout>
